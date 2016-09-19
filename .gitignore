@@ -4,6 +4,6 @@ lib
 **/build
 test/reports
 test/coverage
-dist
 .npmrc
 **.orig
+.idea
