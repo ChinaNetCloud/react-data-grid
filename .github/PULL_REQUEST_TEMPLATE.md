@@ -10,29 +10,33 @@ A few sentences describing the overall goals of the pull request's commits.
 **What kind of change does this PR introduce?** (check one with "x")
 ```
 [ ] Bugfix
-[ ] Feature
+[x] Feature
 [ ] Code style update (formatting, local variables)
 [ ] Refactoring (no functional changes, no api changes)
 [ ] Build related changes
 [ ] CI related changes
-[ ] Other... Please describe:
+[x] Other... Please describe: Update react and remove auto complete feature
 ```
 
 **What is the current behavior?** (You can also link to an open issue here)
-
+React Data Grid supports Auto Complete feature
+And relies on `react and react-dom ~0.14.6`
 
 
 **What is the new behavior?**
+Should work normal without using autocomplete feature.
+Will throw lots of `props` warning from React.
 
 
 
 **Does this PR introduce a breaking change?** (check one with "x")
 ```
 [ ] Yes
-[ ] No
+[x] No
 ```
 
 If this PR contains a breaking change, please describe the impact and migration path for existing applications: ...
 
 
 **Other information**:
+Cannot use Autocomplete feature and throws `props` warnings by react.
