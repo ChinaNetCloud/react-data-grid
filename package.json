@@ -1,5 +1,5 @@
 {
-  "name": "react-data-grid",
+  "name": "@chinanetcloud/react-data-grid",
   "version": "0.14.46",
   "description": "Data grid for React",
   "main": "src/index.js",
